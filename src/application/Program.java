@@ -66,7 +66,7 @@ public class Program {
 			System.out.println("Invalid date format" + e.getMessage());
 		}
 		catch(InputMismatchException e) {
-			throw new IllegalArgumentException("Imput data error ! " + e.getMessage());
+			throw new IllegalArgumentException("Error data imput ! " + e.getMessage());
 		}
 		catch(RuntimeException e) {			
 			System.out.println("Error: " + e.getMessage());
